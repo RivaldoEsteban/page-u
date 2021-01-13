@@ -32,7 +32,10 @@ body {
 .text-principal h3 {
   color: rgb(167, 23, 167);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  font-size: 40px;
+  margin: 10px 0;
+  text-align: center;
 }
 .button {
   display: block;
