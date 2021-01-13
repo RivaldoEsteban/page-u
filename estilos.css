@@ -17,6 +17,7 @@ body {
   font-size: 15px;
   margin-bottom: 10px;
   box-shadow: 0 5px 5px rgba(0, 0,0, 0.2);
+  background: linear-gradient(to left, rgb(167, 23, 167) 20%,rgb(230, 197, 236)) ;
 }
 .hero {
   display: flex;
