@@ -18,6 +18,10 @@ body {
   margin-bottom: 10px;
   box-shadow: 0 5px 5px rgba(0, 0,0, 0.2);
   background: linear-gradient(to left, rgb(167, 23, 167) 20%,rgb(230, 197, 236)) ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .hero {
   display: flex;
@@ -36,6 +40,7 @@ body {
   font-size: 40px;
   margin: 10px 0;
   text-align: center;
+  text-decoration: overline;
 }
 .button {
   display: block;
@@ -130,5 +135,19 @@ body {
   background-image: url(images/fondo.jpeg);
   margin-top: 50px;
   font-size: 18px;
-
+}
+.hover:hover{
+  border: 3px solid rgb(186, 60, 188);
+  border-radius: 20px;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer-registrar {
+  border-bottom: 3px solid rgb(231, 114, 235);
+  height: 150px;
+  padding-top: 60px;
+  /* padding-bottom: 50px; */
 }
