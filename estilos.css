@@ -148,6 +148,60 @@ body {
 .footer-registrar {
   border-bottom: 3px solid rgb(231, 114, 235);
   height: 150px;
-  padding-top: 60px;
-  /* padding-bottom: 50px; */
+  margin-top: 60px;
+}
+
+@media (max-width:1000px){
+
+.wrapper {
+  max-width: 375px;
+}
+.hero {
+  display: block;
+}
+.footer {
+  display: block;
+  text-align: center;
+}
+.image-hero {
+  margin-left: 20px;
+}
+.footer-button {
+  text-align: center;
+}
+.boton-click {
+  margin: 15px 40px;
+  margin-bottom: 30px;
+}
+.footer-registrar{
+  /* height: 100px; */
+  /* border: 1px solid red; */
+}
+.footer-lista {
+  margin: 0;
+  gap: 20px;
+  list-style-type:  none;
+  /* text-decoration:underline; */
+}
+.footer-direccion {
+  display: flex;
+  margin-top: 30px;
+  font-size: 14px;
+}
+}
+@media (max-width:375px){
+
+.wrapper {
+  max-width: 375px;
+}
+.hero {
+  display: block;
+}
+.footer {
+  display: block;
+}
+.image-hero {
+  margin-left: 20px;
+}
+
 }
